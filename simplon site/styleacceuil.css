@@ -1,0 +1,107 @@
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;     
+}
+    
+
+.elements{
+    color:white;
+}
+.navbar{
+   
+    height:180px;
+    z-index: 99999;
+}
+.collapse{
+    z-index: 99999; 
+}
+.dropdown-menu{
+    background-color: #ce0033;
+    opacity: 80%;
+    
+}
+.dropdown-item{
+    color:white;
+    box-shadow: #fff 2px 3px 3px;
+}
+.nav-link{
+    color: #ce0033;
+}
+a{
+    font-size: x-large;
+  
+   
+}
+/* navbar end*/
+
+
+
+.présentation
+{
+   background-image: url(back.JPG);
+   background-size: cover;
+   background-position: center;
+   height: 700px;
+   opacity: 100%;
+}
+
+.paragraphe
+{
+    width: 400px;
+    background-color:#ce0033 ;
+    opacity: 50%;
+    color: white;
+}
+.d-block
+{
+    opacity:90%;
+}
+.carousel-caption
+{
+    color:white;
+}
+#carouselExampleCaptions{
+    background-color: #ce0033;
+    height: 600px;
+}
+main{
+    background-color:transparent;
+}
+.impact-progress{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 300px
+}
+.progress{
+   
+    height: 40px;
+    width: 300px;
+}
+h3{
+    font-family: fantasy;
+    font-size: 20px;
+    box-shadow: 2px 2px #ce0033;
+}
+.progress-bar{
+    background-color: #ce0033;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    
+}
+.list-group{
+   height: 200px;
+    width: 600px;
+}
+.list-group-item{
+    background-color: #ce0033;
+    color: #fff;
+    font-family: 'Trebuchet MS';
+}

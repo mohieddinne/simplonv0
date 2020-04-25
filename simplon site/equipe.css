@@ -1,0 +1,132 @@
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;     
+}
+    
+
+.elements{
+    color:white;
+}
+.navbar{
+   
+    height:180px;
+    background-color: #ce003427;
+    z-index: 9999;
+}
+.dropdown-menu{
+    background-color: #ce0033;
+    opacity: 80%;
+    
+}
+.dropdown-item{
+    color:white;
+    box-shadow: #fff 2px 3px 3px;
+}
+.nav-link{
+    color: #ce0033;
+}
+a{
+    font-size: x-large;
+  
+   
+}
+/* navbar end*/
+
+.picture-equipe{
+   
+    
+    background-color: #ce0034;
+    text-align: center;
+    
+}
+
+.profil{
+    display: flex;
+    justify-content: space-between;
+    margin-top:100px;
+    
+    
+}
+.card{
+    box-shadow: 5px 5px 5px 5px #855d5d;
+}
+
+
+ 
+  h2
+  {
+      margin-top: 10px;
+      height: 40px;
+      color: #fff;
+      
+      background-color: #ce0033;
+      box-shadow: 2px 2px  #ce0033;
+      opacity: 100%;
+  }
+  
+ .text-style
+ {
+     color: #ffffff;
+     font-size: x-large;
+ }
+ 
+  span{
+      color: rgb(10, 9, 9);
+      box-shadow: #fff;
+      font-size: 18px;
+  }
+ h4
+ {
+     color:#ce0033;
+ }
+ .fa {
+    
+    font-size: 30px;
+    width: 100px;
+    height:50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: #3B5998;
+    
+  }
+  .fa-youtube {
+    color: #bb0000;
+    
+  }
+  .fa-instagram {
+    color: #d6249f;
+    
+  }
+  .fiiter{
+      background-color:#ce003427;
+  }
+  
+  
+ @media screen and (max-width: 1000px){
+     
+    .navbar{
+        height:350px;
+    }
+    .profil{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.equipe{
+    width:400px;
+}
+
+   
+}
